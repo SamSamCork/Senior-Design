@@ -1,0 +1,19 @@
+body {
+			text-align: center;
+			padding: 15px;
+			margin-bottom: 10px;
+      background-color: gray;
+		}
+
+div {
+    margin-bottom: 100px;
+    background-color: red;
+    border-radius: 5px;
+    border-color: black;
+}
+
+.onoffbutton {
+  background-color: blue;
+  height:100px; 
+  width: 100px;
+}
