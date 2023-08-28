@@ -1,19 +1,47 @@
+/* Body */
 body {
 			text-align: center;
-			padding: 15px;
-			margin-bottom: 10px;
-      background-color: gray;
+      padding: 15px;
+      background-image: url('https://images.unsplash.com/photo-1505506874110-6a7a69069a08?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80');
+      color: #FFD700;
 		}
-
+    
+/* Div */
 div {
-    margin-bottom: 100px;
-    background-color: red;
+    margin-bottom: 75px;
     border-radius: 5px;
-    border-color: black;
 }
 
+/* On/Off Button */
 .onoffbutton {
-  background-color: blue;
+  background-color: #6A5ACD;
   height:100px; 
   width: 100px;
+  border-radius: 10px;
+  color: #FFD700;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.onoffbutton:active {
+  background-color: #AAAAAA;
+}
+
+/* Slider */
+.slider {
+  -webkit-appearance: none;
+  --sliderOpac: 0.5;
+  width: 100%;
+  height: 8px;
+  background: #d3d3d3;
+  border-radius: 5px;
+}
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 40px;
+  height: 40px;
+  background: url('https://illustoon.com/photo/dl/5764.png') no-repeat center;
+  background-size: contain;
+  border: none;
+  cursor: pointer;
+  opacity: var(--sliderOpac);
 }
