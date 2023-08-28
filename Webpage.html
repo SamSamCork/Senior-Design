@@ -8,24 +8,24 @@
 <body>
 	<h1>light Dimmer</h1>
 	<div id="currentLight">
-		<p>Current Light Level: 50%</p>
+		<p>Actual Light Level: 50%</p>
 	</div>
+	<label>Select Light Level: </label>
+	<span id="sliderVal">50</span>%
 	<div id="lightRange">
-		  <label>Select Light Range :</label>
 		  <input  type="range"
                   min="0"
                 max="100"
                 step = 1
                 value="50"
-                class=slider
+                class="slider"
                 id="slider" />
-		<span id="sliderVal">50</span>%
 	</div>
 	<div>
-		  <input type="button" value="Turn On" class="onoffbutton">
+		  <input type="button" value="Turn On" class="onoffbutton" id="onoff">
     </div>
 
-	<script src="script.js"></script>
+		<script src="script.js"></script>
 
 </body>
 
