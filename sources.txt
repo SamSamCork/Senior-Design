@@ -1,2 +1,7 @@
 LightBulb Photo -> https://illustoon.com/?id=5764
 Milky Way Background Photo -> https://unsplash.com/photos/asuyh-_ZX54
+
+# Wifi Mesh Research:
+https://www.espressif.com/en/products/sdks/esp-wifi-mesh/overview
+can use ESP-MESH library to do this
+website had stuff specifically for light controlling so should be easy to implement
