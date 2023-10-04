@@ -23,10 +23,19 @@ slider.addEventListener("mouseup", event => {
 
 // Button Code Below
 const button = document.getElementById('onoff');
+let button_val = 0; // Initialize the button value to 0
 
 button.addEventListener("mouseup", event => {
   // Send signal to the ESP32
   sendESP('on')
+
+
+  if (button_val === 0) {
+    button_val = 1;
+  } else {
+    button_val = 0;
+  }
+  httpRequest.open(\"GET\", \"/on_off_value?value=\" + button_val, true); httpRequest.send()
 });
 
 
